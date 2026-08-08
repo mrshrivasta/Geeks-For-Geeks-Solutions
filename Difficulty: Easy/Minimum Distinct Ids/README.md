@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-distinct-ids3251/1?page=1&category=Hash&company=Amazon,Microsoft,Google,Flipkart,Adobe,NPCI,Samsung,Accolite,MakeMyTrip,Zoho,Snapdeal,Goldman%20Sachs,Paytm,Morgan%20Stanley,Walmart,OYO%20Rooms,FactSet,D-E-Shaw,Oracle,Facebook,Ola%20Cabs,SAP%20Labs,MAQ%20Software,VMWare,Qualcomm,Hike,Cisco&difficulty=Basic,Easy,Medium&status=unsolved&sortBy=submissions">Minimum Distinct Ids</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p data-start="118" data-end="323"><span style="font-size: 14pt;">Given an array&nbsp;<strong> arr[ ] </strong>of item IDs, where each element represents the ID of an item, and an integer <strong>m</strong>, remove <strong>exactly m</strong> elements from the arr[ ] such that the number of distinct item IDs remaining is<strong> minimized</strong>.</span></p>
+<p><span style="font-size: 14pt;"> </span></p>
+<p data-start="328" data-end="430"><span style="font-size: 14pt;">Return the minimum possible number of distinct item IDs left after removing<strong> exactly m </strong>elements.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [2, 2, 1, 3, 3, 3], m = 3
+<strong>Output</strong>: 1
+<strong>Explanation: </strong>Removing [2, 2, 1]  leaves  [3, 3, 3], which contains only one distinct ID.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [2, 4, 1, 5, 3, 5, 1, 3], m = 2
+<strong>Output</strong>: 3
+<strong>Explanation</strong>: </span><span style="font-size: 14pt;">Removing [2, 4] leaves [1, 5, 3, 5, 1, 3], which contains three distinct IDs.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints</strong>:<br>1 ≤ arr.size() ≤ 10<sup>5<br></sup>1 ≤ m ≤ 10<sup>3<br></sup>m ≤ arr.size()<br>1 ≤ arr[i] ≤ 10<sup>6</sup><br></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Morgan Stanley</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Hash</code>&nbsp;<code>Sorting</code>&nbsp;
